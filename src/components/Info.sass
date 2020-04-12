@@ -1,0 +1,26 @@
+.info
+    margin: 20px
+    height: auto
+    display: flex
+    flex-wrap: wrap
+    text-align: left
+
+.data
+    min-width: 50%
+    
+.data span
+    display: inline-block
+    line-height: 30px
+    margin-left: 5px
+    transform: translateY(-25%)
+
+.data span:nth-child(odd)
+    color: #AFAFAF
+
+@media (max-width: 600px)
+    .data
+        min-width: 51%
+    
+@media (min-width: 1024px)
+    .data
+        min-width: 33%
